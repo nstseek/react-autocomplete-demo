@@ -1,15 +1,15 @@
 1. Q: What is the difference between Component and PureComponent? Give
    an example where it might break my app.
    
-A: A React Component does not implement the `shouldComponentUpdate()` method in its class while a PureComponent does. You can break your app if you try to manipulate props or state directly.
+   A: A React Component does not implement the `shouldComponentUpdate()` method in its class while a PureComponent does. You can break your app if you try to manipulate props or state directly.
    
 2. Q: Context + ShouldComponentUpdate might be dangerous. Why is that?
    
-A: Because `shouldComponentUpdate()` does not take into consideration the React Context. So, if the Context changes, you'll probably have some outdated data on your page.
+   A: Because `shouldComponentUpdate()` does not take into consideration the React Context. So, if the Context changes, you'll probably have some outdated data on your page.
 
 3. Q: Describe 3 ways to pass information from a component to its PARENT.
    
-A: You can use a callback function, which will allow you to pass some data to the parent component through function params and you can call setState in this function or anything else. You can also use the Context API, which is built into React. You can also use some general state management tools like Redux or JOTAI or anything on those lines.
+   A: You can use a callback function, which will allow you to pass some data to the parent component through function params and you can call setState in this function or anything else. You can also use the Context API, which is built into React. You can also use some general state management tools like Redux or JOTAI or anything on those lines.
    
 4. Q: Give 2 ways to prevent components from re-rendering.
    
