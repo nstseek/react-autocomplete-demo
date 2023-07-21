@@ -1,0 +1,42 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.autocomplete-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+
+  .autocomplete-input-container {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+
+    .autocomplete-input-loader {
+      justify-self: center;
+      animation: rotate 2s linear infinite;
+    }
+    .autocomplete-input-loaded {
+      justify-self: center;
+    }
+
+    .autocomplete-input {
+      width: 100%;
+      max-width: 600px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      grid-column-start: 2;
+      &:focus {
+        border-color: lightskyblue;
+        outline: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.autocomplete-suggestions {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  top: calc(100% + 5px);
+  border-radius: 8px;
+  border: 1px solid #eee;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  overflow: auto;
+  max-height: 400px;
+}
