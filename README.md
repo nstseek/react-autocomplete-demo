@@ -1,3 +1,9 @@
+## React Autocomplete Demo
+
+Here you will find an autocomplete component in use that searches the network for queries typed by you in the input field
+
+You can check the live demo right [here](https://react-autocomplete-demo.vercel.app/)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
