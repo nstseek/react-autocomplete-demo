@@ -34,7 +34,7 @@
 
 8. Q: How many arguments does setState take and why is it async.
 
-   A: setState in class components take up to two arguments but it does not need two arguments to work properly. The second argument is usually a callback that runs when the state gets updated while the first one is the new state content.
+   A: setState in class components take up to two arguments but it does not need two arguments to work properly. The second argument is usually a callback that runs when the state gets updated while the first one is the new state content. setState does not immediately updates the component state. It flags to React that the state needs to be updated, React will update the state when it finds convenient, triggering a re-render. You can find more info about it [here](https://legacy.reactjs.org/docs/react-component.html#:~:text=setState()%20does%20not%20always%20immediately%20update%20the%20component.%20It%20may%20batch%20or%20defer%20the%20update%20until%20later.)
     
 9. Q: List the steps needed to migrate a Class to Function Component.
 
