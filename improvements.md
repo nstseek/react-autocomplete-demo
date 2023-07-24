@@ -1,6 +1,6 @@
 ## Improvements
 
-I'll list a few improvements that can be made in this project here since I probably won't have time to implement them, maybe I find some time to do it later.
+I'll list a few improvements that can be made in this project here since I probably won't have time to implement them, maybe I'll find some time to do it later.
 
  - Improve logic in api/movies.ts file, I believe we have more ifs than we need to
  - Improve useEffect logic in useAutocompleteFetch hook, it works just fine for now but I think it can be improved
